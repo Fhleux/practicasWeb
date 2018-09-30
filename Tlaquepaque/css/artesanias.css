@@ -1,0 +1,170 @@
+/* Global*/
+.container{
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+}
+
+/* Menu */
+
+@font-face {
+    font-family: 'CaviarDreams'; /*a name to be used later*/
+    src: url('./fonts/CaviarDreams.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'CaviarDreams_Bold'; /*a name to be used later*/
+    src: url('./fonts/CaviarDreams_Bold.ttf'); /*URL to font*/
+}
+
+.menu {
+  width: 85%;
+  height: 2em;
+  justify-content: center;
+  margin-left: 7.5%;
+  text-align: center;
+  font-family: CaviarDreams_Bold;
+  color: grey;
+}
+
+.menu a{
+  color: grey;
+  text-decoration: none;
+}
+
+.header img{
+  width: 100%;
+  max-height: 15em;
+}
+
+nav ul li {
+  width: 20%;
+}
+
+header li {
+  display: inline;
+  padding: 0 30px 0 100px;
+}
+
+.header img{
+  width: 100%;
+}
+
+header li {
+  display: inline;
+  padding: 0 30px 0 100px;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+/*dropdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 15em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: rgba(192, 192, 192,0.7);
+    border-radius: 2em;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0.5em;
+    text-decoration: none;
+    display: block;
+
+}
+
+
+.dropdown-content a:hover {
+  color: #C01057;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Social */
+
+.social {
+  position: fixed;
+  left: 0;
+  top: 8em;
+  text-align: center;
+  background: #C01057;
+  width: 3em;
+  height: 10em;
+  z-index: 1000;
+}
+.social-box{
+  height: 25%;
+  font-size: 1.5em;
+  margin-top: 0.4em;
+  background-color: white;
+  border-radius: 6em;
+  width: 85%;
+}
+
+.social-box i{
+  color: black;
+}
+
+/* body */
+
+@font-face {
+    font-family: 'CaviarDreams'; /*a name to be used later*/
+    src: url('./fonts/CaviarDreams.ttf'); /*URL to font*/
+}
+
+
+
+
+/* Artesanias*/
+.subContainer {
+  width: 70%;
+  text-align: center;
+  font-family: CaviarDreams;
+  margin-top: 3em;
+}
+
+.subContainer h1{
+  text-align: left;
+  color: purple;
+}
+
+.subContainer p{
+  font-size: 1.3em;
+  text-align: justify;
+}
+
+/* .subcontainer{
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+} */
+
+.artesania-image {
+  width: 30%;
+  padding: 1em;
+  margin-top: 3em;
+  min-height: 32em;
+}
+
+
+/* footer */
+footer img {
+  width: 100%;
+}
